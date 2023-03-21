@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRJMart</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+
+    <nav class="navbar nav-pills navbar-expand-lg navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="Index.html">
+            <!-- <img src="data:image/png;base64,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" alt="logo"> -->
+            Mart
+        </a>
+        <button type="button" data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#Suraj">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Suraj">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a href="public/about.html" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="public/Categories.html" class="nav-link">Categories</a></li>
+                <li class="nav-item"><a href="public/Social_OutReach.html" class="nav-link">Social OutReach</a></li>
+                <li class="nav-item"><a href="public/Partner.html" class="nav-link">Partner With us</a></li>
+                <li class="nav-item"><a href="public/Feedback.html" class="nav-link">Feedback</a></li>
+            </ul>
+
+            <form class="d-flex justify-content-center">
+                <input type="text" class="form-control me-2" placeholder="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+
+    </nav>
+
+    <marquee behavior="scroll" direction="left">Dear Customers - Our customer care contact details are published on our
+        websites <a href="https://www.dmartindia.com/">www.dmartindia.com</a> and <a
+            href="https://www.dmart.in/">www.dmart.in</a> Please do not call any unknown numbers or click on any unknown
+        links or similar looking links. Please check the website name carefully. These could be potential phishing
+        websites. </marquee>
+    <div class="home_banner">
+        <img src="Photos/home-banner.jpg" class="w-100" alt="Home_banner">
+    </div>
+
+    <div class="cat">QUICK LINKS</div>
+
+    <!-- card -->
+
+    <div class="container">
+        <div class="card">
+            <div class="row row-cols-1 row-cols-md-2 g-2">
+                <img src="Photos/New_suppliers.jpg" alt="Suooliers">
+                <div>
+                    <br>
+                    <b class="supplires">New Suppliers</b>
+                    <p class="supplires">Would you like to showcase your products to us?</p>
+                    <button class="btn-1">new vendor online appointment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer style="margin-top: 30px;">
+        <a href="#" class="foot">Sitemap</a>
+        <a href="#" class="foot">Privacy Policy</a>
+        <a href="public/Terms.html" class="foot">Terms and Conditions</a>
+        <a href="#" class="foot">Disclaimer</a>
+        <a href="#" class="foot">Investor Relations</a>
+    </footer>
+
+
+
+
+</body>
+
+</html>
